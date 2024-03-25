@@ -9,6 +9,8 @@ class Executed extends Model
 {
     use HasFactory;
 
+    protected $table = 'executed';
+
     protected $fillable = [
         'total_orders',
         'total_cost',
